@@ -1,0 +1,9 @@
+---
+source_data_url: 'https://aviationweather.gov/api/data/metar?ids={airport}&format=json&taf=false'
+update_frequency: 15
+
+airports: ['KFNL','KGXY','KDEN','KCYS','KDTW','KDFI','PAAQ','PANC','KLMO','KBJC','KTOL','KMIA','KJFK','KSEA','KLAX','KSFO','KPHX','KATL','KORD','KBWI','KMSP','KMEM','KCOS','PHOG','KBOI','KFWA','KDSM','KBGR','KBIL','KOMA','KABQ','KBNA','KMYR','KGEG','KAPA','KLXV','PAFA','PASC','KLAS','KFAY','KPDX','KBDU','KCFO','KLAR','KIAH','KDFW','KMSY','KPTS','KARB','KCLT','KOKC','KBIS','PAOM','KRNO','KHOU','KAGC','KIDA','KTVC','KANJ','KBTV','KSGU','KGEG','KTUS','KHLG','PADK','PAHO','PAVD','KMHT','KEYW','KMTH','KORL','KRSW','KBIL','KIAD','KLIT','KFAY','KLBT','KFSD','KBTR']
+
+database_name: metars.db
+
+mode: interactive
